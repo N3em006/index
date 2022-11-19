@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<center>
+
+    <body id="body1">
+        <div id="fd"><h1 id="h1fd">Modern Media</h1>
+
+        <img src="hp10.png" alt="Error" width="200" id="hp10">
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div  id="nphd">
+            <br>
+            <img src="nph.png" alt="npError" width="550">
+        </div>
+        <br>
+        <div id="phd2">
+            <img src="ph2.png" alt="Error" width="300" id="img1">
+
+            <img src="ph3.png" alt="Error" width="300" id="img2">
+        </div>
+        <div id="phd">
+            <h1></h1>
+        </div>
+        <br>
+        <img src="ph5.png" alt="Error" id="ph5" width="120px">
+        <div hidden id="hd1">
+            <h3>Modern Media©</h3>
+            <h4>email address:**********@gmail.com</h4>
+            <h4>location:**********</h4>
+            <h1>Build By</h1>
+            <img src="logo.png" alt="Error" width="120">
+
+        </div>
+        <br>
+        <img src="ph8.png" alt="Error" id="ph8" width="120px" hidden>
+    </body>
+</center>
+</html>
+<script src="main.js"></script>
+<script src="jquery-3.6.1.js"></script>
+<script src="jquery-3.6.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#ph5").click(function() {
+            $('#hd1').toggle('fast');
+            $('#ph5').toggle('fast');
+            $('#ph8').toggle('fast');
+        });
+    
+        $("#ph8").click(function() {
+            $('#hd1').toggle('fast');
+            $('#ph8').toggle('fast');
+            $('#ph5').toggle('fast');
+        });
+    });
+    
+</script>
